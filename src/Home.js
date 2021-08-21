@@ -2,16 +2,18 @@ import React, { Component } from 'react';
 import jaybird1 from './img/jaybird1.jpg';
 import jaybird2 from './img/jaybird2.jpg';
 import jaybird3 from './img/jaybird3.jpg';
-
 const imgArr = [jaybird1, jaybird2, jaybird3];
+
 class Home extends Component {
 	render() {
 		console.log(require('./img/jaybird1.jpg'));
 		return (
 			<div class="container">
 				<div class="image-container">
-					{imgArr.map((img) => {
-						return <img class="picOne" src={img} alt="headphone" />;
+					{imgArr.map((img, idx) => {
+						return (
+							<img key={idx} class="picOne" src={img} alt="headphone" />
+						);
 					})}
 				</div>
 
