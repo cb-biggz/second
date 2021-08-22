@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import jaybird1 from 'src/img/jaybird1.jpg';
+import jaybird1 from './img/jaybird1.jpg';
 import jaybird2 from './img/jaybird2.jpg';
 import jaybird3 from './img/jaybird3.jpg';
 const imgArr = [jaybird1, jaybird2, jaybird3];
