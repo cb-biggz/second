@@ -6,14 +6,14 @@ import Shop from './Shop';
 import Contact from './Contact';
 import Review from './Review';
 
-import jaybird5 from 'src/img/jaybird5.png';
+
 
 class Main extends Component {
 	render() {
 		return (
 			<HashRouter>
 				<div>
-					<img class="logo" src={jaybird5} alt="headphone" width="200" />
+				<img class="logo" src="src/img/jaybird5.png" alt="headphone"/>
 					<div class="nav-container">
 						<ul className="header">
 							<li class="headOne">
