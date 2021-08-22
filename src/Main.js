@@ -6,7 +6,7 @@ import Shop from './Shop';
 import Contact from './Contact';
 import Review from './Review';
 
-import jaybird5 from './img/jaybird5.png';
+import jaybird5 from 'src/img/jaybird5.png';
 
 class Main extends Component {
 	render() {
