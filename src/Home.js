@@ -14,7 +14,7 @@ class Home extends Component {
 				<div class="image-container">
 					{imgArr.map((img, idx) => {
 						return (
-							<img key={idx} class="picOne" src={img} alt="headphone" />
+							<img key={idx} class="picOne" src={jaybird1} alt="headphone" />
 						);
 					})}
 				</div>
