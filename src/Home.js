@@ -12,11 +12,10 @@ class Home extends Component {
 		return (
 			<div class="container">
 				<div class="image-container">
-					{imgArr.map((img, idx) => {
-						return (
-							<img key={idx} class="picOne" src={jaybird1} alt="headphone" />
-						);
-					})}
+					<img class="picOne" src={jaybird1} alt="headphone" />
+          <img class="picTwo" src={jaybird2} alt="headphone" />
+          <img class="picThree" src={jaybird3} alt="headphone" />
+					)
 				</div>
 
 				<div class="info">
