@@ -15,7 +15,7 @@ class Home extends Component {
 					<img class="picOne" src={jaybird1} alt="headphone" />
           <img class="picTwo" src={jaybird2} alt="headphone" />
           <img class="picThree" src={jaybird3} alt="headphone" />
-					)
+					
 				</div>
 
 				<div class="info">
