@@ -29,6 +29,7 @@ ul.con li{
 .nav-container{
   display:flex;
   align-items: center;
+  
 }
 .content {
   background-color: #FFF;
@@ -69,10 +70,34 @@ ul.con li{
   margin-left: 200px;
 }
 .shopOne{
-  height:150px;
+  height:250px;
+  width: 250px;
+  margin-left: 300px;
+  padding-bottom: 50px;
+}
+.listReasonsTitle{
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+.listReasons{
+  margin-bottom: 100px;
+  margin-left: 50px;
 }
 .shopTwo{
-  height:150px;
+  height:250px;
+  width: 250px;
+  margin-left: 300px;
+  padding-bottom: 50px;
+}
+.listReasonsTitle2{
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+.listReasons2{
+  margin-bottom: 100px;
+  margin-left: 50px;
 }
 .story{
   position:relative;
